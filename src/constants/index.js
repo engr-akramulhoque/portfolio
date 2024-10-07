@@ -23,7 +23,11 @@ import {
 
 import z8tech from "../assets/company/z8tech.png";
 import areiatech from "../assets/company/areiatech.png";
+import cu from "../assets/education/cu.png";
+import amc from "../assets/education/amc.png";
+import muuphs from "../assets/education/muuphs.jpeg";
 
+// nav links
 export const navLinks = [
   {
     id: "about",
@@ -32,6 +36,10 @@ export const navLinks = [
   {
     id: "experience",
     title: "Experience",
+  },
+  {
+    id: "education",
+    title: "Education",
   },
   {
     id: "work",
@@ -43,6 +51,7 @@ export const navLinks = [
   },
 ];
 
+// services
 const services = [
   {
     id: 1,
@@ -86,6 +95,7 @@ const services = [
   },
 ];
 
+// technologies
 const technologies = [
   {
     name: "HTML 5",
@@ -141,6 +151,7 @@ const technologies = [
   },
 ];
 
+// experiences
 const experiences = [
   {
     id: 4,
@@ -172,7 +183,7 @@ const experiences = [
   },
   {
     id: 2,
-    title: "Web Developer (Internship)",
+    title: "Web Developer (Professional)",
     company_name: "Z-Eight Tech",
     icon: z8tech,
     iconBg: "#E6DEDD",
@@ -196,6 +207,67 @@ const experiences = [
       "Integrated third-party services and APIs to enhance web app functionality and user experience.",
       "Led the design and implementation of databases using MongoDB and MySQL, ensuring efficient data handling.",
       "Ensured code quality through unit testing, version control, and following software development best practices.",
+    ],
+  },
+];
+
+// education
+const educations = [
+  {
+    id: 4,
+    course: "Laravel Developer (Internship)",
+    institute: "Areia Tech",
+    icon: areiatech,
+    iconBg: "#E6DEDD",
+    date: "2nd January 2022 - 2nd March 2022",
+    points: [
+      "Gained hands-on experience developing web applications using Laravel, focusing on backend development.",
+      "Assisted in building RESTful APIs and integrating them with frontend applications.",
+      "Collaborated with senior developers to understand Laravel's ecosystem, including Eloquent ORM and Blade templates.",
+      "Contributed to testing and debugging features to ensure seamless functionality in various environments.",
+    ],
+  },
+  {
+    id: 3,
+    course: "Bachelor of Science (Bsc) in CSE",
+    institute: "University of Chittagong, Chittagong",
+    icon: cu,
+    iconBg: "#E6DEDD",
+    date: "2nd January 2017 - 2nd June 2022",
+    points: [
+      "Studied core software engineering principles, including design patterns, object-oriented programming, and software architecture.",
+      "Worked on full-stack development projects utilizing modern frameworks, tools, and methodologies.",
+      "Gained proficiency in algorithms, data structures, and system design, with a focus on scalability and performance.",
+      "Participated in team-based projects applying Agile methodologies and version control systems like Git.",
+      "Developed strong problem-solving and analytical skills through real-world projects and case studies.",
+    ],
+  },
+  {
+    id: 2,
+    course: "Higher Secondary School Certificate (Science)",
+    institute: "Govt. Ashek Mahmud College, Jamalpur",
+    icon: "amc",
+    iconBg: "#E6DEDD",
+    date: "1st February 2014 - 2nd March 2016",
+    points: [
+      "Developed a strong foundation in core science subjects such as Physics, Chemistry, and Mathematics.",
+      "Participated in extracurricular activities, including science fairs and technical seminars.",
+      "Achieved excellent results in the HSC exams with a focus on science and technology subjects.",
+      "Worked on projects that enhanced problem-solving and analytical skills.",
+    ],
+  },
+  {
+    id: 1,
+    course: "Secondary School Certificate (Science)",
+    institute: "Melandah Umir Uddin Pilot High School, Jamalpur",
+    icon: "muuphs",
+    iconBg: "#E6DEDD",
+    date: "1st January 2012 - 1st January 2014",
+    points: [
+      "Developed a solid understanding of fundamental science subjects, including Mathematics, Physics, and Biology.",
+      "Participated in various school-level science competitions and projects.",
+      "Excelled in academic performance with a special focus on science subjects.",
+      "Cultivated a strong interest in technology and software development.",
     ],
   },
 ];
@@ -293,4 +365,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  educations,
+  testimonials,
+  projects,
+};
