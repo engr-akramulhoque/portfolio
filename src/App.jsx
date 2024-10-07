@@ -5,6 +5,7 @@ import {
   Hero,
   About,
   Experience,
+  Education,
   Tech,
   Works,
   Feedbacks,
@@ -22,6 +23,7 @@ const App = () => {
         </div>
         <About />
         <Experience />
+        <Education />
         <Tech />
         <Works />
         <Feedbacks />
@@ -29,6 +31,9 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <footer className="bg-primary text-white text-center py-6">
+          <p>© 2022 Engr. Akramul Hoque. All rights reserved.</p>
+        </footer>
       </div>
     </BrowserRouter>
   );
