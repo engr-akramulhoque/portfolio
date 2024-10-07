@@ -38,7 +38,7 @@ const EducationCard = ({ education }) => {
           className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
-          {education.company_name}
+          {education.institute}
         </p>
       </div>
 
@@ -59,7 +59,7 @@ const EducationCard = ({ education }) => {
 const Education = () => {
   return (
     <>
-      <motion.div variants={textVariant(0.1)}>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Academic Information</p>
         <h2 className={styles.sectionHeadText}>Education.</h2>
       </motion.div>
