@@ -21,13 +21,17 @@ import {
   threejs,
 } from "../assets";
 
-import z8tech from '../assets/company/z8tech.png';
-import areiatech from '../assets/company/areiatech.png';
+import z8tech from "../assets/company/z8tech.png";
+import areiatech from "../assets/company/areiatech.png";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "work",
@@ -139,7 +143,7 @@ const technologies = [
 
 const experiences = [
   {
-    id: 5,
+    id: 4,
     title: "Software Engineer",
     company_name: "Z-Eight Tech",
     icon: z8tech,
@@ -153,7 +157,7 @@ const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     title: "Web Developer",
     company_name: "Z-Eight Tech",
     icon: z8tech,
@@ -167,7 +171,7 @@ const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     title: "Web Developer (Internship)",
     company_name: "Z-Eight Tech",
     icon: z8tech,
@@ -181,7 +185,7 @@ const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 1,
     title: "Full Stack Developer",
     company_name: "Areia Tech",
     icon: areiatech,
@@ -192,20 +196,6 @@ const experiences = [
       "Integrated third-party services and APIs to enhance web app functionality and user experience.",
       "Led the design and implementation of databases using MongoDB and MySQL, ensuring efficient data handling.",
       "Ensured code quality through unit testing, version control, and following software development best practices.",
-    ],
-  },
-  {
-    id: 1,
-    title: "Laravel Developer (Internship)",
-    company_name: "Areia Tech",
-    icon: areiatech,
-    iconBg: "#E6DEDD",
-    date: "2nd January 2022 - 2nd March 2022",
-    points: [
-      "Gained hands-on experience developing web applications using Laravel, focusing on backend development.",
-      "Assisted in building RESTful APIs and integrating them with frontend applications.",
-      "Collaborated with senior developers to understand Laravel's ecosystem, including Eloquent ORM and Blade templates.",
-      "Contributed to testing and debugging features to ensure seamless functionality in various environments.",
     ],
   },
 ];
