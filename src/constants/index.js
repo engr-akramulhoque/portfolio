@@ -190,7 +190,7 @@ const educations = [
     id: 2,
     course: "Higher Secondary School Certificate (Science)",
     institute: "Govt. Ashek Mahmud College, Jamalpur",
-    icon: "amc",
+    icon: amc,
     iconBg: "#E6DEDD",
     date: "1st February 2014 - 2nd March 2016",
     points: [
@@ -204,7 +204,7 @@ const educations = [
     id: 1,
     course: "Secondary School Certificate (Science)",
     institute: "Melandah Umir Uddin Pilot High School, Jamalpur",
-    icon: "muuphs",
+    icon: muuphs,
     iconBg: "#E6DEDD",
     date: "1st January 2012 - 1st January 2014",
     points: [
