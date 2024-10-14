@@ -109,14 +109,6 @@ const Navbar = () => {
           </li>
           <li
             className={`${
-              active === "Feedbacks" ? "text-white" : "text-secondary"
-            } hover:text-white text-[18px] font-medium cursor-pointer`}
-            onClick={() => setActive("Feedbacks")}
-          >
-            <Link to="/portfolio/feedbacks">Feedbacks</Link>
-          </li>
-          <li
-            className={`${
               active === "Contact" ? "text-white" : "text-secondary"
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive("Contact")}
@@ -205,17 +197,6 @@ const Navbar = () => {
                 }}
               >
                 <Link to="/portfolio/works">Works</Link>
-              </li>
-              <li
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === "Feedbacks" ? "text-white" : "text-secondary"
-                }`}
-                onClick={() => {
-                  setToggle(!toggle);
-                  setActive("Feedbacks");
-                }}
-              >
-                <Link to="/portfolio/feedbacks">Feedbacks</Link>
               </li>
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${

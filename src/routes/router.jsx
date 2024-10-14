@@ -10,6 +10,7 @@ import {
   Works,
 } from "../components";
 import Layout from "../components/Layout";
+import MyWork from "../pages/MyWork";
 
 export const router = createBrowserRouter([
   {
@@ -38,11 +39,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/portfolio/works",
-        element: <Works />,
-      },
-      {
-        path: "/portfolio/feedbacks",
-        element: <Feedbacks />,
+        element: <MyWork />,
       },
       {
         path: "/portfolio/contact",

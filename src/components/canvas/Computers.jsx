@@ -53,11 +53,6 @@ const ComputersCanvas = () => {
     };
   }, []);
 
-  // Conditionally hide the canvas on mobile devices
-  if (isMobile) {
-    return null; // Hides the 3D model on mobile devices
-  }
-
   return (
     <Canvas
       frameloop="demand"
