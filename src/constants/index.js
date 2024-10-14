@@ -18,9 +18,6 @@ import {
   mysql,
   postgreSql,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   z8tech,
   areiatech,
   cu,
@@ -30,6 +27,9 @@ import {
   saber,
   tulu,
   nejam,
+  parkingSs,
+  cleanAndServiceSs,
+  bestFoodCtg,
 } from "../assets";
 
 // services
@@ -299,67 +299,85 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    id: 1,
+    name: "Parking Management System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Parking Management System is a software solution designed to efficiently manage parking facilities by automating tasks such as space allocation, vehicle tracking, and access control. It improves the parking experience for both users and operators by streamlining entry and exit processes, while providing real-time data on parking availability.",
     tags: [
       {
-        name: "react",
+        name: "laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: parkingSs,
+    source_code_link:
+      "https://github.com/engr-akramulhoque/parking-mamagment.git",
+  },
+  {
+    id: 2,
+    name: "Clean & Service",
+    description:
+      "Clean & Service is a web application designed to streamline scheduling and managing cleaning and maintenance services. It allows users to book services, track job status, and manage appointments, offering an efficient solution for both service providers and clients. The application helps optimize workflows and ensures timely service delivery.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "greenweb-sms-gateway",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cleanAndServiceSs,
+    source_code_link:
+      "https://github.com/engr-akramulhoque/cleanandservice-website.git",
   },
   {
-    name: "Job IT",
+    id: 3,
+    name: "Best Food CTG",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Best Food CTG is a simple eCommerce website offering a wide selection of local foods from Chittagong. It allows customers to browse, order, and get their favorite dishes delivered, providing an easy and convenient online shopping experience for food lovers. The site features user-friendly navigation and a streamlined ordering process. Fully Responsive and flexible admin panel to maintain all customizations of the site",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "green-text-gradient",
       },
       {
         name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bestFoodCtg,
+    source_code_link:
+      "https://github.com/engr-akramulhoque/bestfoodctg-ecommerce.git",
   },
 ];
 
