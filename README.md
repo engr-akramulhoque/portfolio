@@ -20,6 +20,12 @@ I'm a skilled software developer with extensive experience in PHP and Laravel, s
     npm install --legacy-peer-deps
 ```
 
+### Configure your EmailJs credentials
+
+```bash
+    cp .env.example .env
+```
+
 ```bash
     npm run dev
 ```
