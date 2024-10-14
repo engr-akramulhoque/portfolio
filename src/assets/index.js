@@ -23,10 +23,6 @@ import vuejs from "./tech/vue.png";
 import tailwind from "./tech/tailwind.png";
 import bootstrap from "./tech/bootsrap.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import z8tech from "../assets/company/z8tech.png";
 import areiatech from "../assets/company/areiatech.png";
 import cu from "../assets/education/cu.png";
@@ -37,6 +33,10 @@ import robiul from "../assets/testimonials/robiul.jpg";
 import saber from "../assets/testimonials/saberahmed.jpg";
 import tulu from "../assets/testimonials/tulusamz.jpg";
 import nejam from "../assets/testimonials/nejamuddin.jpg";
+
+import parkingSs from "../assets/works/parkingss.png";
+import cleanAndServiceSs from "../assets/works/clean&serviceSs.png";
+import bestFoodCtg from "../assets/works/bestfoodctg.png";
 
 export {
   logo,
@@ -62,9 +62,6 @@ export {
   bootstrap,
   mysql,
   postgreSql,
-  carrent,
-  jobit,
-  tripguide,
   z8tech,
   areiatech,
   cu,
@@ -74,4 +71,7 @@ export {
   saber,
   tulu,
   nejam,
+  parkingSs,
+  cleanAndServiceSs,
+  bestFoodCtg,
 };
