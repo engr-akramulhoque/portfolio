@@ -14,35 +14,35 @@ import MyWork from "../pages/MyWork";
 
 export const router = createBrowserRouter([
   {
-    path: "/portfolio",
+    path: "",
     element: <Layout />,
     children: [
       {
-        path: "/portfolio",
+        path: "",
         element: <App />,
       },
       {
-        path: "/portfolio/about",
+        path: "/about",
         element: <About />,
       },
       {
-        path: "/portfolio/experience",
+        path: "/experience",
         element: <Experience />,
       },
       {
-        path: "/portfolio/education",
+        path: "/education",
         element: <Education />,
       },
       {
-        path: "/portfolio/technologies",
+        path: "/technologies",
         element: <Tech />,
       },
       {
-        path: "/portfolio/works",
+        path: "/works",
         element: <MyWork />,
       },
       {
-        path: "/portfolio/contact",
+        path: "/contact",
         element: <Contact />,
       },
     ],

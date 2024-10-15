@@ -37,6 +37,9 @@ import nejam from "../assets/testimonials/nejamuddin.jpg";
 import parkingSs from "../assets/works/parkingss.png";
 import cleanAndServiceSs from "../assets/works/clean&serviceSs.png";
 import bestFoodCtg from "../assets/works/bestfoodctg.png";
+import warehouseSs from "../assets/works/warehouse.png";
+import supportSs from "../assets/works/support.png";
+import realEstateSs from "../assets/works/realestate.png";
 
 export {
   logo,
@@ -74,4 +77,7 @@ export {
   parkingSs,
   cleanAndServiceSs,
   bestFoodCtg,
+  warehouseSs,
+  supportSs,
+  realEstateSs,
 };
