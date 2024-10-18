@@ -35,6 +35,7 @@ import {
   realEstateSs,
   jkaBangladesh,
   certificate,
+  mfspay,
 } from "../assets";
 
 // services
@@ -506,6 +507,32 @@ const projects = [
     image: certificate,
     source_code_link:
       "https://github.com/engr-akramulhoque/certificate-management-system.git",
+  },
+  {
+    id: 9,
+    name: "MFS PAY, Online Earning Website",
+    description:
+      "MFS PAY is an online earning website that allows users to earn money through various digital tasks and activities. It offers multiple earning opportunities, such as surveys, referrals, and micro-tasks, providing users with an easy way to generate income online. The platform is user-friendly and supports secure transactions.",
+    tags: [
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "php",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sslcommerce",
+        color: "red-text-gradient",
+      },
+    ],
+    image: mfspay,
+    source_code_link: "https://github.com/engr-akramulhoque/ezzy-pay-mlm.git",
   },
 ];
 
