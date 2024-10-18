@@ -40,6 +40,8 @@ import bestFoodCtg from "../assets/works/bestfoodctg.png";
 import warehouseSs from "../assets/works/warehouse.png";
 import supportSs from "../assets/works/support.png";
 import realEstateSs from "../assets/works/realestate.png";
+import jkaBangladesh from "../assets/works/jkabangladesh.png";
+import certificate from "../assets/works/certificate.png";
 
 export {
   logo,
@@ -80,4 +82,6 @@ export {
   warehouseSs,
   supportSs,
   realEstateSs,
+  jkaBangladesh,
+  certificate,
 };

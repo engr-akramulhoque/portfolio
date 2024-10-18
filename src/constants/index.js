@@ -33,6 +33,8 @@ import {
   warehouseSs,
   supportSs,
   realEstateSs,
+  jkaBangladesh,
+  certificate,
 } from "../assets";
 
 // services
@@ -463,6 +465,47 @@ const projects = [
     image: warehouseSs,
     source_code_link:
       "https://github.com/engr-akramulhoque/smsinventory-management-system.git",
+  },
+  {
+    id: 7,
+    name: "JKA Bangladesh Website",
+    description:
+      "The JKA Bangladesh website, built on WordPress, represents the official platform for Japan Karate Association (JKA) in Bangladesh. It provides information about karate training, events, and programs across the country. The site features details about dojos, instructors, and schedules, promoting the practice of traditional Shotokan karate in Bangladesh.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jkaBangladesh,
+    source_code_link: "",
+  },
+  {
+    id: 8,
+    name: "Certificate Management, JKA Bangladesh",
+    description:
+      "A Certificate Management System provides randomly generated certificates for different branches, automating the issuance process. It allows organizations to efficiently create, distribute, and manage certificates across multiple locations, ensuring consistency and security while saving time.",
+    tags: [
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sslcommerce",
+        color: "red-text-gradient",
+      },
+    ],
+    image: certificate,
+    source_code_link:
+      "https://github.com/engr-akramulhoque/certificate-management-system.git",
   },
 ];
 
