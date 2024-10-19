@@ -30,6 +30,12 @@ import {
   parkingSs,
   cleanAndServiceSs,
   bestFoodCtg,
+  warehouseSs,
+  supportSs,
+  realEstateSs,
+  jkaBangladesh,
+  certificate,
+  mfspay,
 } from "../assets";
 
 // services
@@ -297,6 +303,7 @@ const testimonials = [
   },
 ];
 
+// projects
 const projects = [
   {
     id: 1,
@@ -378,6 +385,154 @@ const projects = [
     image: bestFoodCtg,
     source_code_link:
       "https://github.com/engr-akramulhoque/bestfoodctg-ecommerce.git",
+  },
+  {
+    id: 4,
+    name: "Support Ticket System",
+    description:
+      "A Support Ticket System is a tool used to manage and track customer service requests. It organizes incoming queries into tickets, allowing support teams to efficiently prioritize, assign, and resolve issues. The system improves communication, response times, and ensures no request is overlooked.",
+    tags: [
+      {
+        name: "googleauth",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "liveware",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: supportSs,
+    source_code_link:
+      "https://github.com/engr-akramulhoque/laravel-help-desk.git",
+  },
+  {
+    id: 5,
+    name: "Real Estate Website",
+    description:
+      "A Real Estate Website allows users to browse, buy, sell, or rent properties online. It features property listings with images, descriptions, and pricing, making it easy for users to search for homes or commercial spaces. The site often includes filters for location, price, and property type, providing a seamless experience for both buyers and sellers.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: realEstateSs,
+    source_code_link:
+      "https://github.com/engr-akramulhoque/property-realestate.git",
+  },
+  {
+    id: 6,
+    name: "Warehouse Management System",
+    description:
+      "Warehouse Management System is a software that optimizes warehouse operations by automating inventory tracking, stock management, and order fulfillment. It improves efficiency by streamlining tasks such as receiving, storing, picking, and shipping, ensuring real-time visibility and control over inventory levels and workflows.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: warehouseSs,
+    source_code_link:
+      "https://github.com/engr-akramulhoque/smsinventory-management-system.git",
+  },
+  {
+    id: 7,
+    name: "JKA Bangladesh Website",
+    description:
+      "The JKA Bangladesh website, built on WordPress, represents the official platform for Japan Karate Association (JKA) in Bangladesh. It provides information about karate training, events, and programs across the country. The site features details about dojos, instructors, and schedules, promoting the practice of traditional Shotokan karate in Bangladesh.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jkaBangladesh,
+    source_code_link: "",
+  },
+  {
+    id: 8,
+    name: "Certificate Management, JKA Bangladesh",
+    description:
+      "A Certificate Management System provides randomly generated certificates for different branches, automating the issuance process. It allows organizations to efficiently create, distribute, and manage certificates across multiple locations, ensuring consistency and security while saving time.",
+    tags: [
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sslcommerce",
+        color: "red-text-gradient",
+      },
+    ],
+    image: certificate,
+    source_code_link:
+      "https://github.com/engr-akramulhoque/certificate-management-system.git",
+  },
+  {
+    id: 9,
+    name: "MFS PAY, Online Earning Website",
+    description:
+      "MFS PAY is an online earning website that allows users to earn money through various digital tasks and activities. It offers multiple earning opportunities, such as surveys, referrals, and micro-tasks, providing users with an easy way to generate income online. The platform is user-friendly and supports secure transactions.",
+    tags: [
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "php",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sslcommerce",
+        color: "red-text-gradient",
+      },
+    ],
+    image: mfspay,
+    source_code_link: "https://github.com/engr-akramulhoque/ezzy-pay-mlm.git",
   },
 ];
 

@@ -34,9 +34,15 @@ import saber from "../assets/testimonials/saberahmed.jpg";
 import tulu from "../assets/testimonials/tulusamz.jpg";
 import nejam from "../assets/testimonials/nejamuddin.jpg";
 
-import parkingSs from "../assets/works/parkingss.png";
-import cleanAndServiceSs from "../assets/works/clean&serviceSs.png";
-import bestFoodCtg from "../assets/works/bestfoodctg.png";
+import parkingSs from "./works/parkingss.png";
+import cleanAndServiceSs from "./works/clean&serviceSs.png";
+import bestFoodCtg from "./works/bestfoodctg.png";
+import warehouseSs from "./works/warehouse.png";
+import supportSs from "./works/support.png";
+import realEstateSs from "./works/realestate.png";
+import jkaBangladesh from "./works/jkabangladesh.png";
+import certificate from "./works/certificate.png";
+import mfspay from "./works/mfspay.png";
 
 export {
   logo,
@@ -74,4 +80,10 @@ export {
   parkingSs,
   cleanAndServiceSs,
   bestFoodCtg,
+  warehouseSs,
+  supportSs,
+  realEstateSs,
+  jkaBangladesh,
+  certificate,
+  mfspay,
 };

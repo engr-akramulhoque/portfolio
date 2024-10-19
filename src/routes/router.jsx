@@ -1,48 +1,40 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import {
-  About,
-  Contact,
-  Education,
-  Experience,
-  Feedbacks,
-  Tech,
-  Works,
-} from "../components";
+import { About, Contact, Education, Experience, Works } from "../components";
 import Layout from "../components/Layout";
-import MyWork from "../pages/MyWork";
+import TechAndTestimonial from "../pages/TechAndTestimonial";
 
 export const router = createBrowserRouter([
   {
-    path: "/portfolio",
+    path: "",
     element: <Layout />,
     children: [
       {
-        path: "/portfolio",
+        path: "",
         element: <App />,
       },
       {
-        path: "/portfolio/about",
+        path: "/about",
         element: <About />,
       },
       {
-        path: "/portfolio/experience",
+        path: "/experience",
         element: <Experience />,
       },
       {
-        path: "/portfolio/education",
+        path: "/education",
         element: <Education />,
       },
       {
-        path: "/portfolio/technologies",
-        element: <Tech />,
+        path: "/technologies",
+        element: <TechAndTestimonial />,
       },
       {
-        path: "/portfolio/works",
-        element: <MyWork />,
+        path: "/works",
+        element: <Works />,
       },
       {
-        path: "/portfolio/contact",
+        path: "/contact",
         element: <Contact />,
       },
     ],

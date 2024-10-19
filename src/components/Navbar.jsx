@@ -34,7 +34,7 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to="/portfolio"
+          to="/"
           className="group flex items-center gap-3 p-2 bg-transparent hover:bg-gray-800 rounded-md transition-all duration-300 ease-in-out"
           onClick={() => {
             setActive("Portfolio");
@@ -65,7 +65,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive("Home")}
           >
-            <Link to="/portfolio">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li
             className={`${
@@ -73,7 +73,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive("About")}
           >
-            <Link to="/portfolio/about">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li
             className={`${
@@ -81,7 +81,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive("Experience")}
           >
-            <Link to="/portfolio/experience">Experience</Link>
+            <Link to="/experience">Experience</Link>
           </li>
           <li
             className={`${
@@ -89,7 +89,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive("Education")}
           >
-            <Link to="/portfolio/education">Education</Link>
+            <Link to="/education">Education</Link>
           </li>
           <li
             className={`${
@@ -97,7 +97,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive("Technologies")}
           >
-            <Link to="/portfolio/technologies">Technologies</Link>
+            <Link to="/technologies">Technologies</Link>
           </li>
           <li
             className={`${
@@ -105,7 +105,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive("Works")}
           >
-            <Link to="/portfolio/works">Works</Link>
+            <Link to="/works">Works</Link>
           </li>
           <li
             className={`${
@@ -113,7 +113,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive("Contact")}
           >
-            <Link to="/portfolio/contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
 
@@ -141,7 +141,7 @@ const Navbar = () => {
                   setActive("Home");
                 }}
               >
-                <Link to="/portfolio">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
@@ -152,7 +152,7 @@ const Navbar = () => {
                   setActive("About");
                 }}
               >
-                <Link to="/portfolio/about">About</Link>
+                <Link to="/about">About</Link>
               </li>
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
@@ -163,7 +163,7 @@ const Navbar = () => {
                   setActive("Experience");
                 }}
               >
-                <Link to="/portfolio/experience">Experience</Link>
+                <Link to="/experience">Experience</Link>
               </li>
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
@@ -174,7 +174,7 @@ const Navbar = () => {
                   setActive("Education");
                 }}
               >
-                <Link to="/portfolio/education">Education</Link>
+                <Link to="/education">Education</Link>
               </li>
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
@@ -185,7 +185,7 @@ const Navbar = () => {
                   setActive("Technologies");
                 }}
               >
-                <Link to="/portfolio/technologies">Technologies</Link>
+                <Link to="/technologies">Technologies</Link>
               </li>
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
@@ -196,7 +196,7 @@ const Navbar = () => {
                   setActive("Works");
                 }}
               >
-                <Link to="/portfolio/works">Works</Link>
+                <Link to="/works">Works</Link>
               </li>
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
@@ -207,7 +207,7 @@ const Navbar = () => {
                   setActive("Contact");
                 }}
               >
-                <Link to="/portfolio/contact">Contact</Link>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
